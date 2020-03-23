@@ -1,3 +1,5 @@
 const users = ["matt"];
 
-module.exports = users;
+const yellingUsers = users.map(u => u.toUpperCase());
+
+module.exports = { users, yellingUsers };
